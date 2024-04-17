@@ -8,6 +8,9 @@ import IonIcon from 'react-native-vector-icons/Ionicons';
 import { BoxObjectModelScreen } from './src/presentation/screens/BoxObjectModelScreen';
 import { DimensionScreen } from './src/presentation/screens/DimensionScreen';
 import { PositionScreen } from './src/presentation/screens/PositionScreen';
+import { FlexScreen } from './src/presentation/screens/FlexScreen';
+import { FlexDirectionScreen } from './src/presentation/screens/FlexDirectionScreen';
+import { HomeworkScreen } from './src/presentation/screens/HomeworkScreen';
 
 export default function App () {
   return (
@@ -22,7 +25,10 @@ export default function App () {
         {/* <CounterM3Screen />  */}
         {/* <BoxObjectModelScreen /> */}
         {/* <DimensionScreen /> */}
-        <PositionScreen />
+        {/* <PositionScreen /> */}
+        {/* <FlexScreen /> */}
+        {/* <FlexDirectionScreen /> */}
+        <HomeworkScreen />
       </SafeAreaView>
     </PaperProvider>
   )
